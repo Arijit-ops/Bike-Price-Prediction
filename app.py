@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
-df1 = pd.read_csv("I:\\BIke Price Prediction\\Used_Bikes.csv")
+df1 = pd.read_csv("Used_Bikes.csv")
 
 df2 = df1.drop(['power', 'brand', 'city'], axis=1)
 
